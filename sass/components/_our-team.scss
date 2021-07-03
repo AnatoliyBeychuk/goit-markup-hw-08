@@ -3,7 +3,7 @@
   padding-bottom: 60px;
   background-color: $button-no-active-background;
 
-  @media screen and (min-width: $desktop){
+  @media screen and (min-width: $desktop) {
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -16,10 +16,15 @@
     letter-spacing: 0.03em;
     text-align: center;
     color: $primary-title-color;
+
+    @media screen and (max-width: $tablet - 1px) {
+      margin-bottom: 30px;
+      font-size: 28px;
+      line-height: 1.17;
+    }
   }
 
   .our-team-list {
-    
     @media screen and (min-width: $tablet) {
       display: flex;
       flex-wrap: wrap;
